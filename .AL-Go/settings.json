@@ -3,5 +3,8 @@
     "appFolders":  [
     ],
     "testFolders":  [
+    ],
+    "environments": [
+        "Lernsprint"
     ]
 }
