@@ -4,7 +4,7 @@
     <body>
       <group id="body">
         <trans-unit id="Codeunit 3065482051 - Method 3998599243 - NamedType 2090611797" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Hello World</source>
+          <source>Hello Universe!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit AddOn Management CTMGFPte - Method MyProcedure - NamedType newLabelMsg</note>
         </trans-unit>
