@@ -1,10 +1,13 @@
-{
+﻿{
     "country":  "de",
     "appFolders":  [
-    ],
+
+                   ],
     "testFolders":  [
-    ],
-    "environments": [
-        "Lernsprint"
-    ]
+
+                    ],
+    "environments":  [
+                         "Lernsprint"
+                     ],
+    "RepoVersion":  "1.1"
 }
