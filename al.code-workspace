@@ -5,6 +5,9 @@
                     },
                     {
                         "path":  "CTM GF Custom App"
+                    },
+                    {
+                        "path":  "CTM-GF-Custom-App.Test"
                     }
                 ],
     "settings":  {
