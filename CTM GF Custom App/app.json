@@ -1,0 +1,43 @@
+﻿{
+    "id":  "2b4d0449-9ca9-45af-9908-9fbb6ba66609",
+    "name":  "CTM GF Custom App",
+    "publisher":  "CTM",
+    "version":  "1.0.4.38536",
+    "brief":  "CTM GF Custom App",
+    "description":  "CTM GF Custom App",
+    "platform":  "19.0.0.0",
+    "application":  "19.0.0.0",
+    "runtime":  "8.0",
+    "logo":  "logo/logo.png",
+    "url":  "https://www.ctm-computer.de",
+    "EULA":  "https://www.ctm-computer.de",
+    "privacyStatement":  "https://www.ctm-computer.de",
+    "help":  "https://www.ctm-computer.de",
+    "target":  "Cloud",
+    "screenshots":  [
+
+                    ],
+    "dependencies":  [
+
+                     ],
+    "idRanges":  [
+                     {
+                         "from":  50000,
+                         "to":  50049
+                     }
+                 ],
+    "features":  [
+                     "TranslationFile",
+                     "NoImplicitWith"
+                 ],
+    "resourceExposurePolicy":  {
+
+                               },
+    "applicationInsightsConnectionString":  "InstrumentationKey=00000000-0000-0000-0000-000000000000;IngestionEndpoint=https://westus2-0.in.applicationinsights.azure.com/",
+    "internalsVisibleTo":  [
+
+                           ],
+    "keyVaultUrls":  [
+
+                     ]
+}
