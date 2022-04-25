@@ -1,43 +1,59 @@
-﻿{
-    "id":  "ea321136-ebac-4c48-991c-4b810fced777",
-    "name":  "CTM-GF-Custom-App.Test",
+{
+    "id":  "f66c9a64-b15d-4b04-ac69-63afa5837b84",
+    "name":  "CTM GF Custom Test App",
     "publisher":  "CTM",
+    "brief":  "CTM GF Custom Test App",
+    "description":  "CTM GF Custom Test App",
     "version":  "1.0.0.0",
-    "brief":  "",
-    "description":  "",
-    "privacyStatement":  "",
-    "EULA":  "",
-    "help":  "",
-    "url":  "",
-    "logo":  "",
+    "privacyStatement":  "https://www.ctm-computer.de",
+    "EULA":  "https://www.ctm-computer.de",
+    "help":  "https://www.ctm-computer.de",
+    "url":  "https://www.ctm-computer.de",
+    "logo":  "Resources\\Images\\logo.png",
     "dependencies":  [
-                         {
-                             "publisher":  "Microsoft",
-                             "name":  "Library Assert",
-                             "id":  "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
-                             "version":  "19.0.0.0"
-                         },
-                         {
-                             "publisher":  "Microsoft",
-                             "name":  "Any",
-                             "id":  "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
-                             "version":  "19.0.0.0"
-                         }
+                        {
+                            "id": "5d86850b-0d76-4eca-bd7b-951ad998e997",
+                            "name": "Tests-TestLibraries",
+                            "publisher": "Microsoft",
+                            "version": "19.0.0.0"
+                        },
+
+                        {
+                            "id":  "23de40a6-dfe8-4f80-80db-d70f83ce8caf",
+                            "publisher":  "Microsoft",
+                            "name":  "Test Runner",
+                            "version":  "19.0.0.0"
+                        },
+                        {
+                            "id": "5095f467-0a01-4b99-99d1-9ff1237d286f",
+                            "publisher": "Microsoft",
+                            "name": "Library Variable Storage",
+                            "version": "19.0.0.0"
+                        },
+                
+                        {
+                            "id":  "2b4d0449-9ca9-45af-9908-9fbb6ba66609",
+                            "publisher":  "CTM",
+                            "name":  "CTM GF Custom App",
+                            "version":  "1.0.0.0"
+                        }
                      ],
     "screenshots":  [
 
                     ],
-    "platform":  "1.0.0.0",
     "application":  "19.0.0.0",
+    "platform":  "19.0.0.0",
     "idRanges":  [
                      {
                          "from":  98000,
                          "to":  98999
                      }
                  ],
-    "resourceExposurePolicy":  {
-                                   "allowDebugging":  true,
-                                   "allowDownloadingSource":  false,
-                                   "includeSourceInSymbolFile":  false
-                               }
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "includeSourceInSymbolFile": true,
+        "allowDownloadingSource": true
+    },                             
+    "runtime":  "8.0",
+    "target":  "Cloud"
 }
